@@ -22,4 +22,7 @@ This repository is designed as a beginner-friendly introduction to the world of 
 
   * Anyone curious about how machines learn from data.
 
-*- Created by Prakash UKhalkar*
+#### Created by 
+
+***Prakash Ukhalkar***
+[https://github.com/prakash-ukhalkar](https://github.com/prakash-ukhalkar)
