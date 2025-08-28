@@ -1,4 +1,4 @@
-## Welcome to "Machine Learning using Python Programming for Beginners"!
+## Machine Learning using Python Programming for Beginners!
 
 This repository is designed as a beginner-friendly introduction to the world of Machine Learning (ML) using the Python programming language. Whether you're a student, a self-learner, or someone transitioning into data science, this repo provides a clear, structured path to understanding the fundamental concepts of ML.
 
@@ -22,4 +22,4 @@ This repository is designed as a beginner-friendly introduction to the world of 
 
   * Anyone curious about how machines learn from data.
 
-- Created by Prakash UKhalkar
+*- Created by Prakash UKhalkar*
