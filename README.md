@@ -1,21 +1,25 @@
 # Machine Learning using Python Programming for Beginners
 
-| Active Development | License: MIT | Python |
+| Project Status | License | Environment |
+| :--- | :--- | :--- |
+| **Active Development** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) |
 
 ## Introduction & Project Vision
 
-Welcome to `Machine Learning (ML)`!
+Welcome to **`Machine Learning (ML)`**!
 
-This repository serves as a beginner-friendly, step-by-step guide to mastering Machine Learning (ML) using the Python programming language. My approach is uniquely focused on **Practical Learning**, **Code Implementation**, and **Concept Understanding**, providing comprehensive insights through hands-on examples and real-world datasets.
+This repository serves as a **beginner-friendly, step-by-step guide** to mastering Machine Learning (ML) using the Python programming language. My approach is uniquely focused on **Practical Learning, Code Implementation, and Concept Understanding**, providing comprehensive insights through hands-on examples and real-world datasets.
 
 Whether you're a student, a self-learner, or someone transitioning into data science, this repo provides a clear, structured path to understanding the fundamental concepts of ML.
 
-### Focus Areas
+### **Focus Areas**
 
-• **Scikit-learn Mastery**: Deep-dive into ML algorithms like Linear Regression, Logistic Regression, Decision Trees, and Clustering.
-• **Data Preprocessing**: Feature engineering, handling categorical variables, train-test splits, and data visualization.
-• **Algorithm Implementation**: Step-by-step implementation of classic ML algorithms with detailed explanations.
-• **Storytelling**: Every analysis is accompanied by clear, educational markdown explanations and practical business applications.
+* **Scikit-learn Mastery:** Deep-dive into ML algorithms like Linear Regression, Logistic Regression, Decision Trees, and Clustering.
+* **Data Preprocessing:** Feature engineering, handling categorical variables, train-test splits, and data visualization.
+* **Algorithm Implementation:** Step-by-step implementation of classic ML algorithms with detailed explanations.
+* **Storytelling:** Every analysis is accompanied by clear, educational markdown explanations and practical business applications.
+
+---
 
 ## Repository Structure
 
@@ -25,6 +29,7 @@ The project is organized as a sequential learning path via Jupyter Notebooks.
 ML/
 │
 ├── README.md                                    <- This file
+├── LICENSE                                      <- Project's MIT License
 ├── 01_Simple Linear Regression_ML/
 │   ├── 01_Simple_Linear_Regression_ML.ipynb    <- Basic linear regression concepts
 │   ├── house_prices_inr.csv                    <- Sample dataset
@@ -76,20 +81,22 @@ ML/
 └── ML_Code/                                     <- Additional code examples
 ```
 
+---
+
 ## Getting Started
 
 To run the notebooks locally, follow these steps.
 
-### 1. Prerequisites
+### **1. Prerequisites**
 
-• **Python**: Version 3.8 or higher.
-• **Git**: For cloning the repository.
+* **Python:** Version 3.8 or higher.
+* **Git:** For cloning the repository.
 
-### 2. Setup Instructions
+### **2. Setup Instructions**
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/prakash-ukhalkar/PU_ML_Code_Git.git
+   git clone https://github.com/prakash-ukhalkar/ML.git
    cd ML
    ```
 
@@ -112,56 +119,61 @@ To run the notebooks locally, follow these steps.
    jupyter lab
    ```
 
-### 3. Running the Analysis
+### **3. Running the Analysis**
 
 Start with the notebook `01_Simple_Linear_Regression_ML.ipynb` and proceed sequentially through the numbered directories.
 
+---
+
 ## Notebooks: A Detailed Roadmap
 
-| # | Topic | Description |
-|---|-------|-------------|
-| 01 | Simple Linear Regression | Understanding linear relationships, model training, predictions, and evaluation metrics (R², MAE, MSE, RMSE). |
-| 02 | Multiple Linear Regression | Working with multiple features, feature selection, and interpreting coefficients in multi-dimensional space. |
-| 03 | Dummy Variables & One Hot Encoding | Handling categorical data, avoiding dummy variable trap, and preparing data for ML algorithms. |
-| 04 | Training and Testing Datasets | Data splitting strategies, model validation, and understanding overfitting vs. generalization. |
-| 05 | Simple Logistic Regression | Binary classification, sigmoid function, probability prediction, and decision boundaries. |
-| 06 | Multiclass Logistic Regression | Extending logistic regression to multiple classes, one-vs-rest, and softmax classification. |
-| 07 | Feature Engineering | Outlier detection and removal using Quantile, Z-Score, and IQR methods for data quality improvement. |
-| 08 | Decision Tree Classification | Tree-based learning, entropy, Gini impurity, and interpretable decision-making models. |
-| 09 | Random Forest Classification | Ensemble methods, bagging, feature importance, and reducing overfitting through averaging. |
-| 10 | Support Vector Machines | Margin maximization, kernel trick, and handling non-linearly separable data. |
-| 11 | K-Fold Cross Validation | Robust model evaluation, cross-validation strategies, and performance estimation. |
-| 12 | Naive Bayes Classification | Probabilistic classification, Bayes' theorem, and handling categorical and continuous features. |
-| 13 | k-Nearest Neighbors | Instance-based learning, distance metrics, and non-parametric classification. |
-| 14 | K-Means Clustering | Unsupervised learning, cluster analysis, and pattern discovery in unlabeled data. |
-| 15 | GridSearchCV & Hyperparameter Tuning | Model optimization, parameter search, and achieving best performance through systematic tuning. |
+| Notebook | Title | Key Learning Outcomes |
+| :--- | :--- | :--- |
+| **01** | **Simple Linear Regression** | Understanding linear relationships, model training, predictions, and evaluation metrics (R², MAE, MSE, RMSE). |
+| **02** | **Multiple Linear Regression** | Working with multiple features, feature selection, and interpreting coefficients in multi-dimensional space. |
+| **03** | **Dummy Variables & One Hot Encoding** | Handling categorical data, avoiding dummy variable trap, and preparing data for ML algorithms. |
+| **04** | **Training and Testing Datasets** | Data splitting strategies, model validation, and understanding overfitting vs. generalization. |
+| **05** | **Simple Logistic Regression** | Binary classification, sigmoid function, probability prediction, and decision boundaries. |
+| **06** | **Multiclass Logistic Regression** | Extending logistic regression to multiple classes, one-vs-rest, and softmax classification. |
+| **07** | **Feature Engineering** | Outlier detection and removal using **Quantile, Z-Score, and IQR** methods for data quality improvement. |
+| **08** | **Decision Tree Classification** | Tree-based learning, entropy, Gini impurity, and interpretable decision-making models. |
+| **09** | **Random Forest Classification** | Ensemble methods, bagging, feature importance, and reducing overfitting through averaging. |
+| **10** | **Support Vector Machines** | Margin maximization, kernel trick, and handling non-linearly separable data. |
+| **11** | **K-Fold Cross Validation** | Robust model evaluation, cross-validation strategies, and performance estimation. |
+| **12** | **Naive Bayes Classification** | Probabilistic classification, **Bayes' theorem**, and handling categorical and continuous features. |
+| **13** | **k-Nearest Neighbors** | Instance-based learning, distance metrics, and non-parametric classification. |
+| **14** | **K-Means Clustering** | Unsupervised learning, cluster analysis, and pattern discovery in unlabeled data. |
+| **15** | **GridSearchCV & Hyperparameter Tuning** | Model optimization, parameter search, and achieving best performance through systematic tuning. |
+
+---
 
 ## Dependencies
 
 The core libraries used are:
 
-• `pandas` - Data manipulation and analysis
-• `numpy` - Numerical computing
-• `scikit-learn` - Machine learning algorithms
-• `matplotlib` - Data visualization
-• `seaborn` - Statistical data visualization
-• `jupyter` - Interactive notebook environment
+* `pandas`
+* `numpy`
+* `scikit-learn`
+* `matplotlib`
+* `seaborn`
+* `jupyter`
 
-## Who This Is For
+---
 
-• **Beginners** with basic Python knowledge.
-• **Students** exploring AI and ML for the first time.
-• **Self-learners** looking for structured, hands-on ML education.
-• **Anyone curious** about how machines learn from data.
-
-## Contributions
+#### Contributions
 
 Contributions are welcome! If you'd like to improve examples, add topics, or fix something, feel free to open a pull request.
 
 Happy Learning!
 
+---
+
 ## Author
 
-`ML` repo is created and maintained by **[Prakash Ukhalkar](https://github.com/prakash-ukhalkar)**
+**Machine Learning (ML)** is created and maintained by [**Prakash Ukhalkar**](https://github.com/prakash-ukhalkar)
 
-Built with ❤️ for the Python community
+---
+
+<div align="center">
+  <sub>Built with ❤️ for the Python community</sub>
+</div>
